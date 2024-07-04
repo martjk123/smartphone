@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Ga+Maamli&display=swap');
+
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:70vh;
+    background-color:rgb(67, 65, 65);
+    text-align:center;
+}
+
+.titleC{
+   color:white;
+   font-family: "Ga Maamli", sans-serif;
+}
+
+#peer{
+font-size:5em;
+}
+
+#space{
+margin-top:-80px;
+font-size:6em;
+
+}
+
+.container2{
+display:none;
+position: fixed;
+bottom:0;
+top:0;
+left:0;
+right:0;
+
+}
+
+
+#bricks{
+   min-height:728px;
+   max-width:360px;
+   position:fixed;
+   left:0;
+   right:0;
+   bottom:0;
+   top:0;
+   
+}
+
+.titleC2{
+    position:relative;
+    color:white;
+    
+}
+
+#peerspace1{
+    margin-top:200px;
+    font-size:3em;
+    
+    }
+
+#info{
+margin-top:-20px;
+font-size:1.1em;
+}
+
+.bg{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    background-color:rgba(0, 0, 0, 0.611);
+    
+}
+
+.signs{
+    position:absolute;
+    color:white;
+    left:30px;
+    bottom:40px;
+}
+
+.signUp{
+background-color:rgb(178, 101, 255);
+color:white;
+font-size:1.2em;
+padding:10px;
+border:none;
+padding-left:120px;
+padding-right:120px;
+border-radius:5px;
+font-weight:bold;
+
+}
+
+#login{
+    margin-top:10px;
+    margin-bottom:30px;
+    background-color: white;
+color:black;
+font-weight:bold;
+font-size:1.2em;
+padding:10px;
+border:none;
+padding-left:125px;
+padding-right:125px;
+border-radius:5px;
+}
+
+
+/* toogle */
+.container3{
+    position:absolute;
+    background-color:white;
+    height:680px;
+    bottom:0;
+    left:0;
+    right:0;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    display:none;
+}
+
+@keyframes move1{
+    from{
+        transform:translateY(700px)
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+
+.container3.show{
+    animation-name:move1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.container3.hide{
+    animation-name:move2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+/* toggle */
+
+
+@keyframes move2{
+    from{
+        transform:translateY(0)
+    }
+    to{
+        transform:translateY(700px);
+    }
+}
+
+
+
+
+#sign2{
+    font-size:1.7em;
+    font-weight:bold;
+    position:relative;
+    top:40px;
+}
+
+#x{
+   display:flex;
+   margin-top:10px;
+   margin-left:10px;
+   font-size:1.2em;
+   font-family:sans-serif;
+   background-color:black;
+   width:20px;
+   height:25px;
+   color:white;
+   padding:2px;
+   padding-left:10px;
+   border-radius: 50px;
+   padding-top:5px;
+}
+
+.container3_3{
+    margin-top:5rem;
+    text-align:center;
+}
+
+#ios{
+    height:20px;
+    width:20px;
+    margin-right:20px;
+ 
+}
+
+#signApple{
+ 
+}
+
+.c1{
+    display:flex;
+    align-items: center;
+    border:1.5px solid black;
+    justify-content: center;
+    margin-left:2rem;
+    margin-right:2rem;
+    padding:10px;
+    border-radius:5px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+
+.c2{
+    display:flex;
+    align-items: center;
+    border:1.5px solid black;
+    justify-content: center;
+    margin-left:2rem;
+    margin-right:2rem;
+    padding:10px;
+    border-radius:5px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+
+.c3{
+    display:flex;
+    align-items: center;
+    border:1.5px solid black;
+    justify-content: center;
+    margin-left:2rem;
+    margin-right:2rem;
+    padding:10px;
+    border-radius:5px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+#or{
+    font-size:.8em;
+}
+
+.c4{
+    margin-top:1rem;
+}
+
+#enteremail{
+padding:7px;
+padding-left:10px;
+padding-right:100px;
+margin-bottom: 15px;
+}
+
+#enterpassword{
+    padding:7px;
+padding-left:10px;
+padding-right:100px;
+margin-bottom:15px;
+}
+
+#bsignUp{
+ font-size:1.2em;
+ font-weight:bold;
+ color:white;
+ background-color:rgb(122, 17, 228);
+border:none;
+padding:10px;
+border-radius:5px;
+padding-right:115px;
+padding-left:115px;
+
+}
+
+#infop{
+    font-size:.8em;
+    line-height: 25px;
+}
+
